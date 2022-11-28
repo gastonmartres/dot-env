@@ -1,0 +1,11 @@
+# try to save multiple lines commands into history.
+shopt -s cmdhist
+# enable hist
+shopt -s histappend
+# append date in front of the command.
+HISTTIMEFORMAT="[%d-%m-%y %T] "
+# storage is cheap now, so we can just ignore commands started with a space character.
+HISTCONTROL=ignorespace
+# storage is cheap, and I keep forgetting things, so, better save everything for ages.
+HISTSIZE=1000000
+HISTFILESIZE=2000000
