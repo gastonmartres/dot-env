@@ -2,11 +2,11 @@
 
 ## .historyrc
 
-Archivo con definiciones para el historial de comandos que me parece son utiles.
+Archivo con definiciones para el historial de comandos que me parece son útiles.
 
 Para invocarlo, el archivo debe residir en el `home` del usuario y agregar la llamada en el archivo `.bashrc`.
 
-Esto quedaria mas o menos así:
+Esto quedaría mas o menos así:
 
 ```
 $ vim ~/.bashrc
